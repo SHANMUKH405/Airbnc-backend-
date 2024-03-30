@@ -27,7 +27,7 @@ app.use("/uploads", express.static(__dirname + "/uploads"));
 app.use(
   cors({
     credentials: true,
-    origin: "https://airbnc-one.vercel.app/",
+    origin: "https://airbnc-one.vercel.app",
   })
 );
 
